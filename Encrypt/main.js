@@ -44,7 +44,7 @@ function desencriptar() {
 
 function copiarTexto() {
     // Seleccionar el texto dentro del textarea
-    var textarea = document.getElementById("textoListo");
+    let textarea = document.getElementById("textoListo");
     textarea.select();
     
     // Copiar el texto seleccionado
