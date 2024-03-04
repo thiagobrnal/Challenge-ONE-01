@@ -82,6 +82,7 @@ body {
   gap: 2rem;
 }
 
+
 .container-buttons button {
   border: none;
   outline: none;
@@ -134,6 +135,16 @@ textarea::placeholder {
   width: 70%;
 }
 
+.container-msg {
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  height: 100%;
+  border-radius: 1rem;
+  position: relative;
+}
+
+
 .container-alert {
   text-align: center;
   gap: 1rem;
@@ -161,6 +172,12 @@ img {
   left: 2.5rem;
   display: none;
 }
+
+#con-mensaje{
+  display: none;
+}
+
+
 
 @media screen and (min-width: 600px) {
   .container {
